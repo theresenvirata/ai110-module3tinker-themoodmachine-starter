@@ -50,6 +50,24 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Lowkey stressed but kind of proud of myself 🥲",
+    "I absolutely love getting stuck in traffic 🙄",
+    "no cap that concert was amazing, voice is gone 😂",
+    "got the job!! but I have to move away from everyone 😭",
+    "ugh this group project is killing me 💀",
+    "just got home, gonna make some food and watch a show",
+    "Highkey vibing today :)",
+    "Not bad, I guess",
+    "Oh great, another Monday meeting that could've been an email",
+    "Love how my phone dies right when I need it most",
+    "That new album is sick, the beats are fire 🔥",
+    "I feel sick, been in bed all day",
+    "I'm fine 🙂",
+    "Exhausted but proud of myself",
+    "Excited for the trip but nervous about flying 😬",
+    "Wow, thanks for leaving me on read 🙃",
+    "That final was brutal 💀 but I think I actually passed",
+    "bruh my cat just knocked my coffee over, today is cooked 😭😂",
 ]
 
 # Human labels for each post above.
@@ -65,6 +83,24 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "Lowkey stressed but kind of proud of myself 🥲"
+    "negative",  # "I absolutely love getting stuck in traffic 🙄" (sarcasm)
+    "positive",  # "no cap that concert was amazing, voice is gone 😂"
+    "mixed",     # "got the job!! but I have to move away from everyone 😭"
+    "negative",  # "ugh this group project is killing me 💀" (💀 is slang, edge case)
+    "neutral",   # "just got home, gonna make some food and watch a show"
+    "positive",  # "Highkey vibing today :)"
+    "positive",  # "Not bad, I guess" (edge case: could be neutral)
+    "negative",  # "Oh great, another Monday meeting..." (sarcasm: "great" is positive)
+    "negative",  # "Love how my phone dies..." (sarcasm: "love" is positive)
+    "positive",  # "That new album is sick, the beats are fire 🔥" (slang: sick/fire = good)
+    "negative",  # "I feel sick, been in bed all day" (literal "sick" = ill)
+    "neutral",   # "I'm fine 🙂" (edge case: could be negative, passive-aggressive)
+    "mixed",     # "Exhausted but proud of myself"
+    "mixed",     # "Excited for the trip but nervous about flying 😬"
+    "negative",  # "Wow, thanks for leaving me on read 🙃" (sarcasm, 🙃 is ironic)
+    "mixed",     # "That final was brutal 💀 but I think I actually passed"
+    "mixed",     # "bruh my cat just knocked my coffee over..." (edge case: annoyed but amused)
 ]
 
 # TODO: Add 5-10 more posts and labels.
